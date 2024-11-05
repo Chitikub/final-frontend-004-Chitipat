@@ -1,0 +1,30 @@
+/* ----- ABOUT PAGE STYLE ----- */
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+
+.about-content {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}

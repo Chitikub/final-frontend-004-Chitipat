@@ -1,0 +1,74 @@
+/* ----- NAVBAR STYLE ----- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-logo h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.nav-menu .nav_menu_list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  margin: 0 20px;
+  margin-left: 800px;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-right: 100px;
+}
+
+.nav-link:hover {
+  color: #f0a500;
+  transform: scale(1.1);
+}
+
+/* ----- RESPONSIVE DESIGN ----- */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .nav-list {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+}
